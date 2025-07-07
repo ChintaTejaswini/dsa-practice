@@ -6,5 +6,5 @@ class Solution:
                 nums[i]=0
             else:
                 nums[i]=1
-            nums.sort()
+        nums.sort()
         return nums
