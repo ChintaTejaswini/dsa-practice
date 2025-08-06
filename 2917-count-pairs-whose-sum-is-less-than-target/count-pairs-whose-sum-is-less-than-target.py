@@ -1,9 +1,12 @@
 class Solution:
     def countPairs(self, nums: List[int], target: int) -> int:
-        n=len(nums)
-        ans=0
-        for i in range(n):
-            for j in range(i+1,n):
-                if nums[i]+nums[j]<target and i<j:
-                    ans+=1
-        return ans
+        nums.sort()
+        low, high = 0, len(nums) - 1
+        ans = 0
+        while low < high:
+            if nums[low] + nums[high] < target:
+                ans += high - low
+                low += 1
+            else:
+                high -= 1
+        return ans  
