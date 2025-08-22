@@ -18,7 +18,7 @@ These are **for practice purposes** as part of my learning journey.
   - Dynamic Programming
 
 ## 🛠 Languages & Tools
-- **Python 3**
+- **Python 3 And C++**
 - **LeetCode Platform**
 - VS Code / PyCharm for local testing
 
