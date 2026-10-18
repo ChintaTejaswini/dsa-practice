@@ -25,11 +25,7 @@ public:
             }
         }
 
-        if(first==second){
-            return true;
-        }else{
-            return false;
-        }
+        return first==second;
 
 
     }
